@@ -99,3 +99,6 @@ while True:
     cv2.putText(img, str(int(fps)), (10, 70), cv2.FONT_HERSHEY_PLAIN, 4, (255, 0, 255), 5)
     cv2.imshow("img",img)
     cv2.waitKey(1)
+
+    #cfg ve weight dosyası için https://pjreddie.com/darknet/yolo/   
+    #cfg için raw  save as sonra dosya tipini .cfg yap 
